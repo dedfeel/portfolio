@@ -1,0 +1,68 @@
+.portfolio{
+    margin-left: 50%;
+    color: white;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.projectBox{
+    width: 90%;
+    overflow: hidden;
+}
+
+.ProjectImg{
+   
+    object-fit: cover;
+    
+}
+.nextImg{
+    background-color: transparent;
+    filter: invert(1)
+}
+
+
+
+.prevImg{
+    background-color: transparent;
+    filter: invert(1);
+}
+.next{
+    padding: 50px ;
+    background-color: transparent;
+    transition-duration: 0.5s;
+    opacity: 60%;
+    margin-right: 15px;
+}
+
+.next:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    opacity: 100%;
+}
+
+.prev{
+    padding: 50px;
+    background-color: transparent;
+    transition-duration: 0.5s;
+    opacity: 60%;
+
+}
+
+.prev:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    opacity: 100%;
+
+}
+
+.itemTitle{
+    margin-top: 10px;
+}

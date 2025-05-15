@@ -1,0 +1,59 @@
+[
+    {
+      "index": 1,
+      "title": "Audi",
+      "description": "This is my very first project using HTML and CSS — a simple landing page inspired by Audi's design.",
+      "techStack": ["HTML ", "CSS"],
+      "image": "/public/audi.png"  ,
+      "link": "https://dedfeel.github.io/Audi-html/"
+    },
+    {
+      "index": 2,
+      "title": "Job kz",
+      "description": "This was my first JavaScript project — Job KZ, a platform where users can view job vacancies.",
+      "techStack": ["JavaScript ", "HTML ", "CSS"],
+      "image": "/public/job.png",
+      "link": "https://dedfeel.github.io/project-job/"
+    },
+    {
+      "index": 3,
+      "title": "Movie Detail",
+      "description": "Movie Detail is a small React app where users can search for movies and view detailed information about them.",
+      "techStack": ["React"],
+      "image": "/public/movie.png",
+      "link": "movie-app-steel-rho.vercel.app"
+    },
+    {
+      "index": 4,
+      "title": "Gemini Chat",
+      "description":"Gemini Chat is a lightweight project where I integrated Google's Gemini to create an interactive chat experience.",
+      "techStack": ["React"],
+      "image": "/public/chat.png",
+      "link": "gemini-app-orcin.vercel.app"
+    },
+    {
+      "index": 5,
+      "title": "To Do List",
+      "description":"A simple to-do list app built with React, allowing users to add, complete, and delete tasks.",
+      "techStack": ["React"],
+      "image": "/public/todolist.png",
+      "link": "https://chat.example.com"
+    },
+    {
+      "index": 6,
+      "title": "Memory Game",
+      "description": "This is my first mini game using JavaScript — a simple and fun fruit matching game.",
+      "techStack": ["JavaScript ", "HTML ", "CSS"],
+      "image": "/public/memorygame.png",
+      "link": "https://chat.example.com"
+    },
+    {
+      "index": 7,
+      "title": " laminate flooring",
+      "description": "My first freelance project was a website for a laminate flooring business.",
+      "techStack": ["JavaScript ", "HTML ", "CSS"],
+      "image": "/public/laminate.png",
+      "link": "https://dedfeel.github.io/Laminate/"
+    }
+  ]
+  

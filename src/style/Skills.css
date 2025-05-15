@@ -1,0 +1,60 @@
+@import "tailwindcss";      
+
+.sectoin{
+    margin-left: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 100px;
+}
+
+.Skills{
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.container{
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vniz{
+    width: 5%;
+}
+.Experience{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50%;
+    color: white;
+}
+
+p{
+    color: rgb(172, 172, 172);    
+    margin-top: 10px;
+}
+
+.texth2{
+    font-size: 2em;
+
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px ;
+
+}
+
+.text2{
+    color: rgb(172, 172, 172);      
+    font-size: 18px;
+}
