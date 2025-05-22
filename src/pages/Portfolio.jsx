@@ -74,7 +74,7 @@ export default function Portfolio() {
               <div className="project-content">
                 <h2 className="project-title">{item.title}</h2>
                 <p className="project-description">{item.description}</p>
-                <p className="project-tech">{item.techStack.join(", ")}</p>
+                <p className="project-tech">{item.techStack.join(",")}</p>
               </div>
             </a>
           ))}
