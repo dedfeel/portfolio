@@ -46,10 +46,10 @@
     flex-direction: column;
     width: 50%;
     color: white;
-    height: 100%;
     position: fixed;
     top: 0;
     z-index: 1000;
+
 }
 
 
@@ -136,4 +136,61 @@
     transform: scale(1.1);
 }   
 
+.header {
+  
+  transition: transform 0.3s ease-in-out;
+}
 
+.header.mobile-menu-open {
+  transform: translateX(0);
+  
+}
+
+@media (max-width: 450px) {
+  .header {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    transform: translateX(-100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -20px;
+  
+  }
+
+  .headLink {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .headDiv {
+    margin: 10px 0;
+  }
+
+  .headImg {
+    margin-top: 100px;
+  }
+  
+  .github {
+      width: 50px;
+      transition: transform 0.3s ease;
+  }
+  
+  .whatsApp {
+      width: 50px;
+      transition: transform 0.3s ease;
+  }
+  
+  .ins {
+      width: 55px;
+      transition: transform 0.3s ease;
+  }
+  
+  .tg{
+      margin-left: -15px;
+      width: 105px;    
+      transition: transform 0.3s ease;
+  }
+}

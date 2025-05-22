@@ -1,28 +1,45 @@
 import React, { useState } from 'react'
 import Header from '../components/Header'
 import Strelka from '../assets/niz.png'
-import Footer from '../components/Footer'
 import BurgerMenu from '../assets/burgerMenu.png'
 
+import '../index.css'
 import '../style/Skills.css'
 
 export default function Possibility() {
-  // Жеке state-тер
   const [langOpen, setLangOpen] = useState(false);
   const [frameworksOpen, setFrameworksOpen] = useState(false);
   const [toolsOpen, setToolsOpen] = useState(false);
   const [generalOpen, setGeneralOpen] = useState(false);
 
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
+
+  const closeMenu = () => {
+    setIsMenuOpen(false)
+  }
+
   return (
     <div>
-      <Header />
-      <img src={BurgerMenu} className='BurgerMenu' alt="" />
-      <h1 className='MainAbout'>SKILLS</h1>
+      <Header isMenuOpen={isMenuOpen} closeMenu={closeMenu} />
+      <div className='headContainer'>
+        <img 
+        src={BurgerMenu}  
+        className='BurgerMenu' 
+        alt="Menu" 
+        onClick={toggleMenu}
+      />
+        <h1 className='MainAbout'>SKILLS</h1>
+      </div>
       <div className='sectoin'>
         <h1 className='Skills'>Skills</h1>
         <h1 className='text-2xl  '>My technical level</h1>
 
-        <div className="container px-4 text-white">
+        <div className="container px-4 text-white ">
           <div className="language">
             <h1
               onClick={() => setLangOpen(prev => !prev)}
