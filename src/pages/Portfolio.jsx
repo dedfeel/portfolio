@@ -10,7 +10,7 @@ import BurgerMenu from '../assets/burgerMenu.png'
 
 export default function Portfolio() {
   const [index, setIndex] = useState(0);
-
+            
   const next = () => {
     setIndex((prevIndex) => (prevIndex + 1) % Data.length);
   };

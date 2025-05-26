@@ -11,6 +11,8 @@
     font-size: 4em;
 }
 
+
+
 .p{
     margin-top: 10px;
     color: gray;
@@ -58,7 +60,7 @@
   flex-direction: column;
   gap: 20px;
   margin-left: 100px;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .headDiv {
@@ -149,7 +151,7 @@
 @media (max-width: 450px) {
   .header {
     position: fixed;
-    width: 100%;
+    width: 110%;
     height: 100%;
     z-index: 100;
     transform: translateX(-100%);
@@ -159,10 +161,14 @@
     margin-left: -20px;
   
   }
+  .div{
+    margin-left: 80px;
+  }
 
   .headLink {
     flex-direction: column;
     margin-top: 30px;
+    margin-left: 80px;
   }
 
   .headDiv {
@@ -170,7 +176,8 @@
   }
 
   .headImg {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
   }
   
   .github {
@@ -188,7 +195,7 @@
       transition: transform 0.3s ease;
   }
   
-  .tg{
+  .tg{  
       margin-left: -15px;
       width: 105px;    
       transition: transform 0.3s ease;

@@ -21,7 +21,7 @@
       "description": "Movie Detail is a small React app where users can search for movies and view detailed information about them.",
       "techStack": ["React"],
       "image": "/movie.png",
-      "link": "movie-app-steel-rho.vercel.app"
+      "link": "https://movie-app-z5yt-ne88edy0e-azizs-projects-881d5d5c.vercel.app"
     },
     {
       "index": 4,
@@ -29,7 +29,7 @@
       "description":"Gemini Chat is a lightweight project where I integrated Google's Gemini to create an interactive chat experience.",
       "techStack": ["React"],
       "image": "/chat.png",
-      "link": "gemini-app-orcin.vercel.app"
+      "link": "https://gemini-app-l9oi-buli7jl5r-azizs-projects-881d5d5c.vercel.app"
     },
     {
       "index": 5,
@@ -37,7 +37,7 @@
       "description":"A simple to-do list app built with React, allowing users to add, complete, and delete tasks.",
       "techStack": ["React"],
       "image": "/todolist.png",
-      "link": "todolist-liart-psi.vercel.app"
+      "link": "https://todolist-f7l6txjac-azizs-projects-881d5d5c.vercel.app"
     },
     {
       "index": 6,
