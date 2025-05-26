@@ -66,10 +66,9 @@
   }
   
   .main {
-    width: 100%;
-    margin: 100px 0px 80px 50px;
+    margin: 100px 50px 80px 50px;
+    width: auto;
     overflow: hidden;
-    padding-right: 50px;
   }
   
   .MainAbout {

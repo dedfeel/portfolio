@@ -149,35 +149,37 @@
 }
 
 @media (max-width: 450px) {
-  .header {
+
+  .header {   
     position: fixed;
-    width: 110%;
+    width: 100%;
     height: 100%;
     z-index: 100;
     transform: translateX(-100%);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: -20px;
-  
+    flex-wrap: wrap;
+    align-content: space-around ;
+    justify-content: space-evenly;
+    padding-left: 30px;
   }
+  
   .div{
-    margin-left: 80px;
+    margin: 0;
   }
 
   .headLink {
-    flex-direction: column;
-    margin-top: 30px;
-    margin-left: 80px;
+    
+    margin: 0;
   }
 
   .headDiv {
     margin: 10px 0;
   }
 
-  .headImg {
-    margin-top: 50px;
-    margin-left: 80px;
+  .headImg{
+    
+    margin: 0;
   }
   
   .github {
@@ -196,7 +198,7 @@
   }
   
   .tg{  
-      margin-left: -15px;
+      
       width: 105px;    
       transition: transform 0.3s ease;
   }
