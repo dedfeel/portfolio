@@ -1,21 +1,5 @@
 [
     {
-      "index": 1,
-      "title": "Audi",
-      "description": "This is my very first project using HTML and CSS — a simple landing page inspired by Audi's design.",
-      "techStack": ["HTML ", "CSS"],
-      "image": "/audi.png"  ,
-      "link": "https://dedfeel.github.io/Audi-html/"
-    },
-    {
-      "index": 2,
-      "title": "Job kz",
-      "description": "This was my first JavaScript project — Job KZ, a platform where users can view job vacancies.",
-      "techStack": ["JavaScript ", "HTML ", "CSS"],
-      "image": "/job.png",
-      "link": "https://dedfeel.github.io/project-job/"
-    },
-    {
       "index": 3,
       "title": "Movie Detail",
       "description": "Movie Detail is a small React app where users can search for movies and view detailed information about them.",
