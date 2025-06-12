@@ -27,6 +27,7 @@ export default function Portfolio() {
   
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
+    
   }
 
   const closeMenu = () => {
@@ -36,6 +37,7 @@ export default function Portfolio() {
   return (
     <div>
       <Header isMenuOpen={isMenuOpen} closeMenu={closeMenu} />
+      <div className={`homeDiv ${isMenuOpen ? 'hiddenDiv' : ''}`}>
       <div className='headContainer'>
         <img 
         src={BurgerMenu}  
@@ -79,10 +81,12 @@ export default function Portfolio() {
             </a>
           ))}
         </div>
-        <p className='comment'>These projects were made for personal practice only, so some of 
-        the  websites don't have a responsive design. Please view them on a laptop. Thank you!</p>
+          <p className='comment'>These projects were made for personal practice only, so some of 
+          the  websites don't have a responsive design. Please view them on a laptop. Thank you!</p>
         
       </div>
+      </div>
+     
     </div>
   )
 } 

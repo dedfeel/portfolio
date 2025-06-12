@@ -49,7 +49,7 @@ export default function Header({ isMenuOpen, closeMenu }) {
 
       <div className='headImg'>
         <a href="https://github.com/dedfeel"><img className='github' src={github} alt="GitHub" /></a>
-        <a href="https://wa.me/77057673435?text=Сәлеметсіз%20бе!%20Здравствуйте!)"><img className='whatsApp' src={whatsApp} alt="WhatsApp" /></a>
+        <a href="https://wa.me/77057673435"><img className='whatsApp' src={whatsApp} alt="WhatsApp" /></a>
         <a href="https://www.instagram.com/azzi_xxy/"><img className='ins' src={ins} alt="Instagram" /></a>
         <a href="https://t.me/azzi_xxy"><img className='tg' src={tg} alt="Telegram" /></a>
       </div>

@@ -26,7 +26,8 @@ export default function Possibility() {
   return (
     <div>
       <Header isMenuOpen={isMenuOpen} closeMenu={closeMenu} />
-      <div className='headContainer'>
+      <div className={`homeDiv ${isMenuOpen ? 'hiddenDiv' : ''}`}>
+        <div className='headContainer'>
         <img 
         src={BurgerMenu}  
         className='BurgerMenu' 
@@ -152,6 +153,8 @@ export default function Possibility() {
           <p className='text2'>Stack</p>
         </div>
       </div>
+      </div>
+      
     </div>
   )
 }

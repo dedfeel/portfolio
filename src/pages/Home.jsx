@@ -10,6 +10,7 @@ export default function Home() {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
+
   }
 
   const closeMenu = () => {
@@ -19,7 +20,8 @@ export default function Home() {
   return (
     <div>
       <Header isMenuOpen={isMenuOpen} closeMenu={closeMenu} />
-      <div className='headContainer'>
+      <div className={`homeDiv ${isMenuOpen ? 'hiddenDiv' : ''}`}>
+        <div className='headContainer'>
         <img 
         src={BurgerMenu}  
         className='BurgerMenu' 
@@ -43,6 +45,8 @@ export default function Home() {
             </div>
         </div>
       </div>
+      </div>
+      
     </div>
   )
 }
